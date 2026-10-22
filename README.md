@@ -15,12 +15,12 @@ A simple comparison between "Threats" and "Vulnerabilities" in cybersecurity.
 ## 2. Scenario Example
 
 1) **Threats**
-  - **Phishing Attack:** An employee receives a fake email from "HR" asking to verify login details via a link. (Reasoning: Phishing is an external malicious attempt to trick a user.)
-  - **Distributed Denial of Service (DDoS):** A hacker uses a botnet to flood a website with traffic until it crashes. (Reasoning: DDoS is an active external attack.)
+  - **Zero-Day Exploit:** An attack by a cybercriminal group using a previously unknown vulnerability to software application before the vendor has a chance to create a patch. (Reasoning: An active, highly sophisticated external attack by malicious actors.)
+  - **Credential Stuffing:** Brute-forcing a login page using millions of username and password pairs leaked from previous data breaches on other websites. (Reasoning: An automated cyberattack campaign aimed at unauthorized account access.)
 
 2) **Vulnerabilities**
-  - **Outdated Software:** A company server runs Windows Server 2012, which no longer receives security update. (Reasoning: Unpatched software creates weakness that could be exploited.)
-  - **Misconfiguration:** A firewall is misconfigured to allow all inbound traffic. (Reasoning: A weak configuration that is just waiting to be exploited.)
+  - **Hardcoded Credentials:** A developer leaves a database password directly in the application source code instead of using environment variables. (Reasoning: A serious coding design flaw that exposes internal access if the code is accessed.)
+  - **Missing Multi-Factor Authentication (MFA):** An enterprise admin portal allows employees to access sensitive internal systems using only a single password. (Reasoning: A structural weakness in access controls that makes accounts easy to compromise if credentials are stolen.)
 
 
 ## 3. How They Work Together
